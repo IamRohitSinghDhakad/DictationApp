@@ -1,0 +1,1093 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA542A802A319B2800E14435 /* WatchConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA542A7F2A319B2800E14435 /* WatchConnectivityManager.swift */; };
+		AA542A812A319B2800E14435 /* WatchConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA542A7F2A319B2800E14435 /* WatchConnectivityManager.swift */; };
+		AA55192C2A160A20002DAD89 /* DictationAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55192B2A160A20002DAD89 /* DictationAppApp.swift */; };
+		AA55192E2A160A20002DAD89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55192D2A160A20002DAD89 /* ContentView.swift */; };
+		AA5519302A160A21002DAD89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA55192F2A160A21002DAD89 /* Assets.xcassets */; };
+		AA5519332A160A21002DAD89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA5519322A160A21002DAD89 /* Preview Assets.xcassets */; };
+		AA55193D2A160A21002DAD89 /* DictationAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55193C2A160A21002DAD89 /* DictationAppTests.swift */; };
+		AA5519472A160A21002DAD89 /* DictationAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5519462A160A21002DAD89 /* DictationAppUITests.swift */; };
+		AA5519492A160A21002DAD89 /* DictationAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5519482A160A21002DAD89 /* DictationAppUITestsLaunchTests.swift */; };
+		AA55194F2A160A21002DAD89 /* DictationApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AA55194E2A160A21002DAD89 /* DictationApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AA5519542A160A21002DAD89 /* DictationAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5519532A160A21002DAD89 /* DictationAppApp.swift */; };
+		AA5519562A160A21002DAD89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5519552A160A21002DAD89 /* ContentView.swift */; };
+		AA5519582A160A21002DAD89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA5519572A160A21002DAD89 /* Assets.xcassets */; };
+		AA55195B2A160A21002DAD89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA55195A2A160A21002DAD89 /* Preview Assets.xcassets */; };
+		AA5519652A160A21002DAD89 /* DictationApp_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5519642A160A21002DAD89 /* DictationApp_Watch_AppTests.swift */; };
+		AA55196F2A160A22002DAD89 /* DictationApp_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55196E2A160A22002DAD89 /* DictationApp_Watch_AppUITests.swift */; };
+		AA5519712A160A22002DAD89 /* DictationApp_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5519702A160A22002DAD89 /* DictationApp_Watch_AppUITestsLaunchTests.swift */; };
+		AAF6F7752A32F8EB00A97105 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF6F7742A32F8EB00A97105 /* DataModel.swift */; };
+		AAF6F7762A32F8EB00A97105 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF6F7742A32F8EB00A97105 /* DataModel.swift */; };
+		AAF6F7B52A3C360300A97105 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF6F7B42A3C360300A97105 /* MailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA5519392A160A21002DAD89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA5519202A160A20002DAD89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA5519272A160A20002DAD89;
+			remoteInfo = DictationApp;
+		};
+		AA5519432A160A21002DAD89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA5519202A160A20002DAD89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA5519272A160A20002DAD89;
+			remoteInfo = DictationApp;
+		};
+		AA5519502A160A21002DAD89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA5519202A160A20002DAD89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA55194D2A160A21002DAD89;
+			remoteInfo = "DictationApp Watch App";
+		};
+		AA5519612A160A21002DAD89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA5519202A160A20002DAD89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA55194D2A160A21002DAD89;
+			remoteInfo = "DictationApp Watch App";
+		};
+		AA55196B2A160A22002DAD89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA5519202A160A20002DAD89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA55194D2A160A21002DAD89;
+			remoteInfo = "DictationApp Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA5519772A160A22002DAD89 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AA55194F2A160A21002DAD89 /* DictationApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA542A7F2A319B2800E14435 /* WatchConnectivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityManager.swift; sourceTree = "<group>"; };
+		AA5519282A160A20002DAD89 /* DictationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DictationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA55192B2A160A20002DAD89 /* DictationAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictationAppApp.swift; sourceTree = "<group>"; };
+		AA55192D2A160A20002DAD89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA55192F2A160A21002DAD89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA5519322A160A21002DAD89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA5519382A160A21002DAD89 /* DictationAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictationAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA55193C2A160A21002DAD89 /* DictationAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictationAppTests.swift; sourceTree = "<group>"; };
+		AA5519422A160A21002DAD89 /* DictationAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictationAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5519462A160A21002DAD89 /* DictationAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictationAppUITests.swift; sourceTree = "<group>"; };
+		AA5519482A160A21002DAD89 /* DictationAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictationAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AA55194E2A160A21002DAD89 /* DictationApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DictationApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5519532A160A21002DAD89 /* DictationAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictationAppApp.swift; sourceTree = "<group>"; };
+		AA5519552A160A21002DAD89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA5519572A160A21002DAD89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA55195A2A160A21002DAD89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA5519602A160A21002DAD89 /* DictationApp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DictationApp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5519642A160A21002DAD89 /* DictationApp_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictationApp_Watch_AppTests.swift; sourceTree = "<group>"; };
+		AA55196A2A160A22002DAD89 /* DictationApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DictationApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA55196E2A160A22002DAD89 /* DictationApp_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictationApp_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		AA5519702A160A22002DAD89 /* DictationApp_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictationApp_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AAF6F7742A32F8EB00A97105 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		AAF6F7B12A3B1C0500A97105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AAF6F7B22A3B1C1100A97105 /* DictationApp-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DictationApp-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AAF6F7B42A3C360300A97105 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA5519252A160A20002DAD89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5519352A160A21002DAD89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA55193F2A160A21002DAD89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA55194B2A160A21002DAD89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA55195D2A160A21002DAD89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5519672A160A22002DAD89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA542A7E2A319B0C00E14435 /* WatchConnectivityManager */ = {
+			isa = PBXGroup;
+			children = (
+				AA542A7F2A319B2800E14435 /* WatchConnectivityManager.swift */,
+				AAF6F7742A32F8EB00A97105 /* DataModel.swift */,
+			);
+			path = WatchConnectivityManager;
+			sourceTree = "<group>";
+		};
+		AA55191F2A160A20002DAD89 = {
+			isa = PBXGroup;
+			children = (
+				AAF6F7B32A3C35EE00A97105 /* MailView */,
+				AA542A7E2A319B0C00E14435 /* WatchConnectivityManager */,
+				AA55192A2A160A20002DAD89 /* DictationApp */,
+				AA55193B2A160A21002DAD89 /* DictationAppTests */,
+				AA5519452A160A21002DAD89 /* DictationAppUITests */,
+				AA5519522A160A21002DAD89 /* DictationApp Watch App */,
+				AA5519632A160A21002DAD89 /* DictationApp Watch AppTests */,
+				AA55196D2A160A22002DAD89 /* DictationApp Watch AppUITests */,
+				AA5519292A160A20002DAD89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA5519292A160A20002DAD89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA5519282A160A20002DAD89 /* DictationApp.app */,
+				AA5519382A160A21002DAD89 /* DictationAppTests.xctest */,
+				AA5519422A160A21002DAD89 /* DictationAppUITests.xctest */,
+				AA55194E2A160A21002DAD89 /* DictationApp Watch App.app */,
+				AA5519602A160A21002DAD89 /* DictationApp Watch AppTests.xctest */,
+				AA55196A2A160A22002DAD89 /* DictationApp Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA55192A2A160A20002DAD89 /* DictationApp */ = {
+			isa = PBXGroup;
+			children = (
+				AAF6F7B12A3B1C0500A97105 /* Info.plist */,
+				AA55192B2A160A20002DAD89 /* DictationAppApp.swift */,
+				AA55192D2A160A20002DAD89 /* ContentView.swift */,
+				AA55192F2A160A21002DAD89 /* Assets.xcassets */,
+				AA5519312A160A21002DAD89 /* Preview Content */,
+			);
+			path = DictationApp;
+			sourceTree = "<group>";
+		};
+		AA5519312A160A21002DAD89 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA5519322A160A21002DAD89 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA55193B2A160A21002DAD89 /* DictationAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA55193C2A160A21002DAD89 /* DictationAppTests.swift */,
+			);
+			path = DictationAppTests;
+			sourceTree = "<group>";
+		};
+		AA5519452A160A21002DAD89 /* DictationAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA5519462A160A21002DAD89 /* DictationAppUITests.swift */,
+				AA5519482A160A21002DAD89 /* DictationAppUITestsLaunchTests.swift */,
+			);
+			path = DictationAppUITests;
+			sourceTree = "<group>";
+		};
+		AA5519522A160A21002DAD89 /* DictationApp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				AAF6F7B22A3B1C1100A97105 /* DictationApp-Watch-App-Info.plist */,
+				AA9949932A1731D100929104 /* View */,
+				AA5519532A160A21002DAD89 /* DictationAppApp.swift */,
+				AA5519572A160A21002DAD89 /* Assets.xcassets */,
+				AA5519592A160A21002DAD89 /* Preview Content */,
+			);
+			path = "DictationApp Watch App";
+			sourceTree = "<group>";
+		};
+		AA5519592A160A21002DAD89 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA55195A2A160A21002DAD89 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA5519632A160A21002DAD89 /* DictationApp Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA5519642A160A21002DAD89 /* DictationApp_Watch_AppTests.swift */,
+			);
+			path = "DictationApp Watch AppTests";
+			sourceTree = "<group>";
+		};
+		AA55196D2A160A22002DAD89 /* DictationApp Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA55196E2A160A22002DAD89 /* DictationApp_Watch_AppUITests.swift */,
+				AA5519702A160A22002DAD89 /* DictationApp_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "DictationApp Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		AA9949932A1731D100929104 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA5519552A160A21002DAD89 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AAF6F7B32A3C35EE00A97105 /* MailView */ = {
+			isa = PBXGroup;
+			children = (
+				AAF6F7B42A3C360300A97105 /* MailView.swift */,
+			);
+			path = MailView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA5519272A160A20002DAD89 /* DictationApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5519782A160A22002DAD89 /* Build configuration list for PBXNativeTarget "DictationApp" */;
+			buildPhases = (
+				AA5519242A160A20002DAD89 /* Sources */,
+				AA5519252A160A20002DAD89 /* Frameworks */,
+				AA5519262A160A20002DAD89 /* Resources */,
+				AA5519772A160A22002DAD89 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA5519512A160A21002DAD89 /* PBXTargetDependency */,
+			);
+			name = DictationApp;
+			productName = DictationApp;
+			productReference = AA5519282A160A20002DAD89 /* DictationApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA5519372A160A21002DAD89 /* DictationAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA55197B2A160A22002DAD89 /* Build configuration list for PBXNativeTarget "DictationAppTests" */;
+			buildPhases = (
+				AA5519342A160A21002DAD89 /* Sources */,
+				AA5519352A160A21002DAD89 /* Frameworks */,
+				AA5519362A160A21002DAD89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA55193A2A160A21002DAD89 /* PBXTargetDependency */,
+			);
+			name = DictationAppTests;
+			productName = DictationAppTests;
+			productReference = AA5519382A160A21002DAD89 /* DictationAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA5519412A160A21002DAD89 /* DictationAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA55197E2A160A22002DAD89 /* Build configuration list for PBXNativeTarget "DictationAppUITests" */;
+			buildPhases = (
+				AA55193E2A160A21002DAD89 /* Sources */,
+				AA55193F2A160A21002DAD89 /* Frameworks */,
+				AA5519402A160A21002DAD89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA5519442A160A21002DAD89 /* PBXTargetDependency */,
+			);
+			name = DictationAppUITests;
+			productName = DictationAppUITests;
+			productReference = AA5519422A160A21002DAD89 /* DictationAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AA55194D2A160A21002DAD89 /* DictationApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5519742A160A22002DAD89 /* Build configuration list for PBXNativeTarget "DictationApp Watch App" */;
+			buildPhases = (
+				AA55194A2A160A21002DAD89 /* Sources */,
+				AA55194B2A160A21002DAD89 /* Frameworks */,
+				AA55194C2A160A21002DAD89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DictationApp Watch App";
+			productName = "DictationApp Watch App";
+			productReference = AA55194E2A160A21002DAD89 /* DictationApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA55195F2A160A21002DAD89 /* DictationApp Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5519812A160A22002DAD89 /* Build configuration list for PBXNativeTarget "DictationApp Watch AppTests" */;
+			buildPhases = (
+				AA55195C2A160A21002DAD89 /* Sources */,
+				AA55195D2A160A21002DAD89 /* Frameworks */,
+				AA55195E2A160A21002DAD89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA5519622A160A21002DAD89 /* PBXTargetDependency */,
+			);
+			name = "DictationApp Watch AppTests";
+			productName = "DictationApp Watch AppTests";
+			productReference = AA5519602A160A21002DAD89 /* DictationApp Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA5519692A160A22002DAD89 /* DictationApp Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5519842A160A22002DAD89 /* Build configuration list for PBXNativeTarget "DictationApp Watch AppUITests" */;
+			buildPhases = (
+				AA5519662A160A22002DAD89 /* Sources */,
+				AA5519672A160A22002DAD89 /* Frameworks */,
+				AA5519682A160A22002DAD89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA55196C2A160A22002DAD89 /* PBXTargetDependency */,
+			);
+			name = "DictationApp Watch AppUITests";
+			productName = "DictationApp Watch AppUITests";
+			productReference = AA55196A2A160A22002DAD89 /* DictationApp Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA5519202A160A20002DAD89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AA5519272A160A20002DAD89 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					AA5519372A160A21002DAD89 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = AA5519272A160A20002DAD89;
+					};
+					AA5519412A160A21002DAD89 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = AA5519272A160A20002DAD89;
+					};
+					AA55194D2A160A21002DAD89 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					AA55195F2A160A21002DAD89 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = AA55194D2A160A21002DAD89;
+					};
+					AA5519692A160A22002DAD89 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = AA55194D2A160A21002DAD89;
+					};
+				};
+			};
+			buildConfigurationList = AA5519232A160A20002DAD89 /* Build configuration list for PBXProject "DictationApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA55191F2A160A20002DAD89;
+			productRefGroup = AA5519292A160A20002DAD89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA5519272A160A20002DAD89 /* DictationApp */,
+				AA5519372A160A21002DAD89 /* DictationAppTests */,
+				AA5519412A160A21002DAD89 /* DictationAppUITests */,
+				AA55194D2A160A21002DAD89 /* DictationApp Watch App */,
+				AA55195F2A160A21002DAD89 /* DictationApp Watch AppTests */,
+				AA5519692A160A22002DAD89 /* DictationApp Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA5519262A160A20002DAD89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5519332A160A21002DAD89 /* Preview Assets.xcassets in Resources */,
+				AA5519302A160A21002DAD89 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5519362A160A21002DAD89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5519402A160A21002DAD89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA55194C2A160A21002DAD89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA55195B2A160A21002DAD89 /* Preview Assets.xcassets in Resources */,
+				AA5519582A160A21002DAD89 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA55195E2A160A21002DAD89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5519682A160A22002DAD89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA5519242A160A20002DAD89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA55192E2A160A20002DAD89 /* ContentView.swift in Sources */,
+				AAF6F7752A32F8EB00A97105 /* DataModel.swift in Sources */,
+				AA542A802A319B2800E14435 /* WatchConnectivityManager.swift in Sources */,
+				AA55192C2A160A20002DAD89 /* DictationAppApp.swift in Sources */,
+				AAF6F7B52A3C360300A97105 /* MailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5519342A160A21002DAD89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA55193D2A160A21002DAD89 /* DictationAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA55193E2A160A21002DAD89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5519492A160A21002DAD89 /* DictationAppUITestsLaunchTests.swift in Sources */,
+				AA5519472A160A21002DAD89 /* DictationAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA55194A2A160A21002DAD89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5519562A160A21002DAD89 /* ContentView.swift in Sources */,
+				AAF6F7762A32F8EB00A97105 /* DataModel.swift in Sources */,
+				AA542A812A319B2800E14435 /* WatchConnectivityManager.swift in Sources */,
+				AA5519542A160A21002DAD89 /* DictationAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA55195C2A160A21002DAD89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5519652A160A21002DAD89 /* DictationApp_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5519662A160A22002DAD89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5519712A160A22002DAD89 /* DictationApp_Watch_AppUITestsLaunchTests.swift in Sources */,
+				AA55196F2A160A22002DAD89 /* DictationApp_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA55193A2A160A21002DAD89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA5519272A160A20002DAD89 /* DictationApp */;
+			targetProxy = AA5519392A160A21002DAD89 /* PBXContainerItemProxy */;
+		};
+		AA5519442A160A21002DAD89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA5519272A160A20002DAD89 /* DictationApp */;
+			targetProxy = AA5519432A160A21002DAD89 /* PBXContainerItemProxy */;
+		};
+		AA5519512A160A21002DAD89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA55194D2A160A21002DAD89 /* DictationApp Watch App */;
+			targetProxy = AA5519502A160A21002DAD89 /* PBXContainerItemProxy */;
+		};
+		AA5519622A160A21002DAD89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA55194D2A160A21002DAD89 /* DictationApp Watch App */;
+			targetProxy = AA5519612A160A21002DAD89 /* PBXContainerItemProxy */;
+		};
+		AA55196C2A160A22002DAD89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA55194D2A160A21002DAD89 /* DictationApp Watch App */;
+			targetProxy = AA55196B2A160A22002DAD89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA5519722A160A22002DAD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA5519732A160A22002DAD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AA5519752A160A22002DAD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DictationApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6VKP5FFNHC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DictationApp-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = DictationApp;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "The app needs your microphone permission to record audio.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = de.araucon.dictate;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = de.araucon.dictate.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		AA5519762A160A22002DAD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DictationApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6VKP5FFNHC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DictationApp-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = DictationApp;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "The app needs your microphone permission to record audio.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = de.araucon.dictate;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = de.araucon.dictate.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		AA5519792A160A22002DAD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DictationApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6VKP5FFNHC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DictationApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DictationApp;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = NO;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = de.araucon.dictate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AA55197A2A160A22002DAD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DictationApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6VKP5FFNHC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DictationApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DictationApp;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = NO;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = de.araucon.dictate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA55197C2A160A22002DAD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VKP5FFNHC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.araucon.dictate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DictationApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DictationApp";
+			};
+			name = Debug;
+		};
+		AA55197D2A160A22002DAD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VKP5FFNHC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.araucon.dictate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DictationApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DictationApp";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA55197F2A160A22002DAD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VKP5FFNHC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.araucon.dictate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DictationApp;
+			};
+			name = Debug;
+		};
+		AA5519802A160A22002DAD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VKP5FFNHC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.araucon.dictate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DictationApp;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA5519822A160A22002DAD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VKP5FFNHC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.araucon.dictate-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DictationApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DictationApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		AA5519832A160A22002DAD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VKP5FFNHC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.araucon.dictate-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DictationApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DictationApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		AA5519852A160A22002DAD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VKP5FFNHC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.araucon.dictate-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "DictationApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		AA5519862A160A22002DAD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VKP5FFNHC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.araucon.dictate-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "DictationApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA5519232A160A20002DAD89 /* Build configuration list for PBXProject "DictationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5519722A160A22002DAD89 /* Debug */,
+				AA5519732A160A22002DAD89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5519742A160A22002DAD89 /* Build configuration list for PBXNativeTarget "DictationApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5519752A160A22002DAD89 /* Debug */,
+				AA5519762A160A22002DAD89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5519782A160A22002DAD89 /* Build configuration list for PBXNativeTarget "DictationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5519792A160A22002DAD89 /* Debug */,
+				AA55197A2A160A22002DAD89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA55197B2A160A22002DAD89 /* Build configuration list for PBXNativeTarget "DictationAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA55197C2A160A22002DAD89 /* Debug */,
+				AA55197D2A160A22002DAD89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA55197E2A160A22002DAD89 /* Build configuration list for PBXNativeTarget "DictationAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA55197F2A160A22002DAD89 /* Debug */,
+				AA5519802A160A22002DAD89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5519812A160A22002DAD89 /* Build configuration list for PBXNativeTarget "DictationApp Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5519822A160A22002DAD89 /* Debug */,
+				AA5519832A160A22002DAD89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5519842A160A22002DAD89 /* Build configuration list for PBXNativeTarget "DictationApp Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5519852A160A22002DAD89 /* Debug */,
+				AA5519862A160A22002DAD89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA5519202A160A20002DAD89 /* Project object */;
+}
